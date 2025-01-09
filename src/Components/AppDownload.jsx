@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AppDownload = () => {
   return (
     <section className="py-10 sm:py-20 bg-primary-50 ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}

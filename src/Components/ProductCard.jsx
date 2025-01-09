@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#d0e8e4] rounded-lg shadow-md overflow-hidden relative">
+    <div className="flex flex-col h-full bg-[#beedd291] rounded-lg shadow-md overflow-hidden relative">
       <div className="absolute top-0 right-0 rounded-bl-xl bg-green-800 text-white px-2 py-1">
         {(((product.MRP - product.price) * 100) / product.MRP).toFixed(0)}% off
       </div>

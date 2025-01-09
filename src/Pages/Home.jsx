@@ -5,15 +5,17 @@ import CateBanner from "../Components/CateBanner";
 import Products from "../Components/Products";
 import AppDownload from "../Components/AppDownload";
 import ComingSoon from "../Components/ComingSoon";
+import Footer from "../Components/Footer";
 const Home = () => {
   return (
-    <div className="w-full h-max  relative  px-1">
+    <div className="w-full h-max  relative  ">
       <Navbar />
       <Hero />
       <CateBanner />
       <Products />
       <AppDownload />
       <ComingSoon />
+      <Footer />
     </div>
   );
 };

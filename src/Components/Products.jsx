@@ -71,7 +71,7 @@ const featuredProducts = [
 
 const FeaturedProducts = () => {
   return (
-    <section className="py-10 bg-[#fff] overflow-hidden px-4">
+    <section className="py-20 bg-[#fff] overflow-hidden px-4">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ x: "100%" }}
