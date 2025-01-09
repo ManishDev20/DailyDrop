@@ -5,9 +5,6 @@ import { FaShoppingBasket } from "react-icons/fa";
 
 const Hero = () => {
   const vegetableImages = [
-    // "./img/leaf1.webp", // Replace with your vegetable image paths
-    // "/img/tomato.webp",
-    // "/img/potato.webp",
     "/img/mint.webp",
     "/img/coriander.webp",
     "/img/coriander.webp",
@@ -97,7 +94,7 @@ const Hero = () => {
             key={index}
             src={image}
             alt={`vegetable-${index}`}
-            className="absolute w-32 h-32 opacity-70 object-contain"
+            className="absolute w-32 h-32 opacity-40 object-contain"
             initial={randomPositionWithinHeroDesktop()} // Start at a random position inside the hero section
             animate={randomPositionWithinHeroDesktop()} // Move to another random position
             transition={{
@@ -117,7 +114,7 @@ const Hero = () => {
             key={index}
             src={image}
             alt={`vegetable-${index}`}
-            className="absolute w-32 h-32 opacity-70 object-contain"
+            className="absolute w-32 h-32 opacity-40 object-contain"
             initial={randomPositionWithinHeroMobile()} // Start at a random position inside the hero section
             animate={randomPositionWithinHeroMobile()} // Move to another random position
             transition={{

@@ -25,7 +25,7 @@ const CateBanner = () => {
     },
   ];
   return (
-    <div className="py-10">
+    <div className="py-2 sm:py-10">
       <div className="max-w-[1200px] mx-auto py-5 px-5 lg:px-10 grid grid-cols-12  gap-5 md:gap-10 ">
         {/* Category Cards*/}
 
@@ -54,12 +54,12 @@ const CateBanner = () => {
 
       {/* Offer Banner  */}
 
-      <div className="max-w-[1200px] mx-auto px-10 select-none">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-10 select-none">
         <img
           src="./img/offerbanner.png
           "
           alt=""
-          className="object-fill w-full rounded-lg select-none"
+          className="object-cover w-full rounded-lg select-none"
         />
       </div>
     </div>

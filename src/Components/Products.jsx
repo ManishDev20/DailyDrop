@@ -71,7 +71,7 @@ const featuredProducts = [
 
 const FeaturedProducts = () => {
   return (
-    <section className="py-10 bg-[#fff]  overflow-hidden px-4">
+    <section className="py-10 bg-[#fff] overflow-hidden px-4">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ x: "100%" }}
@@ -79,7 +79,7 @@ const FeaturedProducts = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className=""
         >
-          <h1 className="secHead w-full py-10 text-center text-green-800 text-4xl sm:text-5xl font-bold uppercase">
+          <h1 className="secHead w-full py-1 text-center text-green-800 text-4xl sm:text-5xl font-bold uppercase">
             Vegetables <span className="secHead text-black">& </span>{" "}
             <span className="secHead text-orange-500">Fruits</span>
           </h1>
