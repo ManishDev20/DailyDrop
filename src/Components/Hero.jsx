@@ -5,7 +5,6 @@ import { FaShoppingBasket } from "react-icons/fa";
 
 const Hero = () => {
   const vegetableImages = [
-    "/img/mint.webp",
     "/img/coriander.webp",
     "/img/coriander.webp",
     "/img/coriander.webp",
