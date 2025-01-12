@@ -87,7 +87,7 @@ const Hero = () => {
       </div>
 
       {/* Animated Coriander leafs in Desktop*/}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      <div className="hidden sm:block absolute inset-0 z-0 pointer-events-none">
         {vegetableImages.map((image, index) => (
           <motion.img
             key={index}
@@ -107,7 +107,7 @@ const Hero = () => {
 
       {/* Animated Coriander leafs in Moblie*/}
 
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      <div className="block sm:hidden absolute inset-0 z-0 pointer-events-none">
         {vegetableImages.map((image, index) => (
           <motion.img
             key={index}
