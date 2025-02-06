@@ -24,9 +24,11 @@ const ComingSoon = () => {
                 alt=""
                 className="w-32 mx-auto pb-5"
               />
-              <h3 className="text-xl font-semibold mb-2">Recipe Integration</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                Receipts Integration
+              </h3>
               <p className="">
-                Get personalized recipes based on your purchases
+                Get personalized Receipt based on your purchases
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md bg-gradient-to-b  from-green-300 via-green-400 to-green-500 ">

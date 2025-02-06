@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaWhatsapp, FaShoppingBag, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
 
@@ -38,16 +38,13 @@ const Navbar = () => {
               Offers
             </a>
           </div>
-          <Link
-            to="/cart"
-            className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-900"
-          >
+          <div className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-900">
             <FaShoppingBag className="text-lg" />
             <span className="sr-only">Notifications</span>
             <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-green-500 border-2 border-white rounded-full -top-2 -right-2">
               20
             </div>
-          </Link>
+          </div>
           <div className="mx-5 bg-green-200 px-4 py-2 flex gap-5 rounded-full">
             <a
               href="tel:+917400136503"
@@ -91,16 +88,13 @@ const Navbar = () => {
           <a href="#offers" className="text-gray-500 hover:text-green-700">
             Offers
           </a>
-          <Link
-            to="/cart"
-            className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-900"
-          >
+          <div className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-900">
             <FaShoppingBag className="text-lg" />
             <span className="sr-only">Notifications</span>
             <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-green-500 border-2 border-white rounded-full -top-2 -right-2">
               20
             </div>
-          </Link>
+          </div>
           <div className="flex gap-5 bg-green-200 px-4 py-2 rounded-full">
             <a
               href="tel:+917400136503"

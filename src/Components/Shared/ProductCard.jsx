@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaBasketShopping } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
 
 const ProductCard = ({ product }) => {

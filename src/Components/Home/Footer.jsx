@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,19 +20,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white">
-                  Home
-                </Link>
+                <div className="text-gray-400 hover:text-white">Home</div>
               </li>
               <li>
-                <Link to="/products" className="text-gray-400 hover:text-white">
-                  Products
-                </Link>
+                <div className="text-gray-400 hover:text-white">Products</div>
               </li>
               <li>
-                <Link to="/cart" className="text-gray-400 hover:text-white">
-                  Cart
-                </Link>
+                <div className="text-gray-400 hover:text-white">Cart</div>
               </li>
             </ul>
           </div>
@@ -42,7 +36,7 @@ const Footer = () => {
               <li>123 Veggie Street</li>
               <li>Fresh City, FC 12345</li>
               <li>Phone: (123) 456-7890</li>
-              <li>Email: info@freshveggies.com</li>
+              <li>Email: info@dailydrop.app</li>
             </ul>
           </div>
         </div>
