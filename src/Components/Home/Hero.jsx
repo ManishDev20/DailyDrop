@@ -63,9 +63,9 @@ const Hero = () => {
               We deliver farm fresh Vegetables to your doorstep Everyday.
             </h3>
           </div>
-          <div className="flex justify-center sm:justify-start">
+          <div className="flex justify-center sm:justify-start hover:cursor-pointer">
             <div className="group text-white bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:outline-none shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg px-5 py-2.5 text-center me-2 mb-2">
-              <FaShoppingBasket className="hidden group-hover:inline-flex text-xl mr-2" />
+              <FaShoppingBasket className="hidden group-hover:inline-flex text-xl mr-2 " />
               Order Now
             </div>
           </div>

@@ -31,9 +31,8 @@ const CateBanner = () => {
 
         {categories.map((veg, i) => {
           return (
-            <Link
+            <div
               key={i}
-              to={"/products"}
               className="cateCard col-span-12 sm:col-span-6 lg:col-span-3 p-4 flex flex-col text-center gap-5 items-center flex-1 bg-white rounded-md hover:scale-[1.1] duration-[0.6s] hover:shadow-lg shadow-md"
             >
               <div className="">
@@ -47,7 +46,7 @@ const CateBanner = () => {
                   {veg.desc}{" "}
                 </p>
               </div>
-            </Link>
+            </div>
           );
         })}
       </div>
